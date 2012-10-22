@@ -141,6 +141,7 @@
 		D88066A21635C708003EB953 /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = D88066381635C708003EB953 /* vec2.c */; };
 		D88066A31635C708003EB953 /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = D88066391635C708003EB953 /* vec3.c */; };
 		D88066A41635C708003EB953 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = D880663A1635C708003EB953 /* vec4.c */; };
+		D88066AA1635CCA1003EB953 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D88066A91635CCA1003EB953 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -433,6 +434,7 @@
 		D880663B1635C708003EB953 /* LICENSE_cocos2d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_cocos2d.txt; sourceTree = "<group>"; };
 		D880663C1635C708003EB953 /* LICENSE_CocosDenshion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_CocosDenshion.txt; sourceTree = "<group>"; };
 		D880663D1635C708003EB953 /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_Kazmath.txt; sourceTree = "<group>"; };
+		D88066A91635CCA1003EB953 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +469,7 @@
 		D880637B1635C61F003EB953 = {
 			isa = PBXGroup;
 			children = (
+				D88066A91635CCA1003EB953 /* README */,
 				D88065421635C708003EB953 /* libs */,
 				D880639C1635C61F003EB953 /* CBArc */,
 				D88065371635C658003EB953 /* cocos2d-library */,
@@ -990,6 +993,7 @@
 				D88063B51635C620003EB953 /* Icon.png in Resources */,
 				D88063B71635C620003EB953 /* Icon@2x.png in Resources */,
 				D88063BA1635C620003EB953 /* iTunesArtwork in Resources */,
+				D88066AA1635CCA1003EB953 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1269,6 +1273,7 @@
 				D88065301635C622003EB953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D880653E1635C658003EB953 /* Build configuration list for PBXNativeTarget "cocos2d-library" */ = {
 			isa = XCConfigurationList;
@@ -1277,6 +1282,7 @@
 				D88065401635C658003EB953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
